@@ -74,6 +74,25 @@
   <footer>
     © 2025 Dummy Footer | All Rights Reserved
   </footer>
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DHo00000TwieF',
+				'MC_JewelIQ_AgentV4',
+				'https://pu1763564093062.my.site.com/ESWMCJewelIQAgentV41764143626660',
+				{
+					scrt2URL: 'https://pu1763564093062.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://pu1763564093062.my.site.com/ESWMCJewelIQAgentV41764143626660/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 </body>
 </html>
